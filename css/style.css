@@ -1,0 +1,80 @@
+*{
+    padding:0;
+}
+
+body{
+    background-color: bisque;
+    color: rgb(49, 78, 5);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin:0;
+}
+.container{
+    width: 80%;
+    margin:auto
+}
+
+
+#navbar{
+    background-color: bisque;
+    color: rgb(49, 78, 5)
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+
+}
+#navbar li{
+    display: inline;
+
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+
+}
+
+
+#showcase{
+    background-image: url('../img/africana.jpg') ;
+    background size: 300px;
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 300%;
+
+}
+
+.my-form{
+    padding: 20px;
+
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+
+}
+
+.my-form label{ 
+    display: block;
+}
+
+.my-form input [ type= "text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input [ type= "submit"]{ 
+    background-color: pink;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    
+}
+
+
+
